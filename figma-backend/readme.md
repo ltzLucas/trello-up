@@ -86,7 +86,7 @@ Returns detailed information for a specific user, including their tasks.
 
 ### Task Endpoints
 
-#### POST /tasks/new
+#### POST /task/new
 
 Creates a new task.
 
@@ -112,7 +112,7 @@ Creates a new task.
 
 ---
 
-#### POST /tasks/<int:task_id>/edit
+#### POST /task/<int:task_id>/edit
 
 Updates an existing task.
 
@@ -134,7 +134,7 @@ Updates an existing task.
 
 ---
 
-#### POST /tasks/<int:task_id>/update_status
+#### POST /task/<int:task_id>/update_status
 
 Updates the status of a task.
 
@@ -156,7 +156,7 @@ Updates the status of a task.
 
 ---
 
-#### POST /tasks/<int:task_id>/delete
+#### POST /task/<int:task_id>/delete
 
 Deletes a task.
 
@@ -176,7 +176,7 @@ Deletes a task.
 
 ---
 
-#### POST /tasks/<int:task_id>/assign
+#### POST /task/<int:task_id>/assign
 
 Assigns a task to a user.
 
@@ -201,7 +201,7 @@ Assigns a task to a user.
 
 ---
 
-#### POST /tasks/<int:task_id>/deassign
+#### POST /task/<int:task_id>/deassign
 
 Deassigns a task from a user.
 
@@ -244,7 +244,7 @@ Returns a list of all tasks.
 
 ---
 
-#### GET /tasks/<int:task_id>
+#### GET /task/<int:task_id>
 
 Returns detailed information for a specific task, including assigned users.
 
